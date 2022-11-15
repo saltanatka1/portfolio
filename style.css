@@ -1,3 +1,37 @@
 *{
   box-sizing: border-box;
 }
+img {
+  text-align: left;
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: cornflowerblue;
+  text-align: right;
+  margin-right: 30px;
+}
+p {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  float: right;
+  margin: 0;
+  width: 600px;
+  color: rgb(144, 90, 9);
+}
+strong {
+  color: darkred;
+}
+ul{
+  float: right;
+  width: 600px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+
+}
