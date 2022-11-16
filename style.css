@@ -1,14 +1,22 @@
 *{
   box-sizing: border-box;
 }
-img {
-  text-align: left;
+body{
+  background-color: rgb(159, 154, 154);
 }
+.img1 {
+  text-align: left;
+  padding: 10px;
+  border: 3px solid red;
+  width: 650px;
+}
+
 h1{
   font-family: 'Times New Roman', Times, serif;
-  color: cornflowerblue;
+  color: rgb(13, 79, 13);
   text-align: right;
   margin-right: 30px;
+  background-color: darkgoldenrod;
 }
 p {
   font-size: 30px;
@@ -16,22 +24,18 @@ p {
   float: right;
   margin: 0;
   width: 600px;
-  color: rgb(144, 90, 9);
+  color: rgb(26, 34, 60);
 }
 strong {
   color: darkred;
 }
-ul{
-  float: right;
-  width: 600px;
-  height: 400px;
-  margin: 0;
-  padding: 0;
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 45px;
 }
-ul li{
-  font-size: 30px;
-  color: black;
-  text-decoration: none;
-  list-style-type: none;
-
+div img{
+  height: 350px;
+  border: 5px solid rgba(56, 59, 56, 0.601);
 }
